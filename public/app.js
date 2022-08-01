@@ -4,15 +4,15 @@ var time = 3000;
 
 const data = [
     {
-        src: "../imgs/flipper-color.jpg",
+        src: "flipper-color.jpg",
         title: "Color Flipper"
     },
     {
-        src: "../imgs/menu-food.jpg",
+        src: "menu-food.jpg",
         title: "Menu"
     },
     {
-        src: "../imgs/tabs.jpg",
+        src: "tabs.jpg",
         title: "Tabs"
     }
 ]
