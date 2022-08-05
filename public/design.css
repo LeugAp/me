@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Montserrat:wght@100&display=swap');
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Kanit', sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+    .name
+    {
+        font-size: 1rem;
+    }
+}
+
+.container-header
+{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4
+{
+    margin: 0;
+    letter-spacing: 3px;
+    color: hsl(205deg 78% 60%)
+}
+
+.container-color
+{
+    background-color: #f1f5f8;
+    width: 100vw;
+    height: 92.3vh;
+    display: grid;
+    place-items: center;
+    box-shadow: 1px black;
+}
+
+.colors
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-color .colors .name
+{
+    background-color: black;
+    color: white;
+    font-size: 2.1rem;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin-bottom: 60px;
+    letter-spacing: 4px;
+    text-align: center;
+}
+
+.container-color .colors .button
+{
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 350ms;
+    letter-spacing: 4px;
+}
+
+.container-color .colors .button:hover 
+{
+    background-color: black;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+    margin: 5px;
+}
+
+a:hover
+{
+    color: hsl(205deg 78% 60%);
+}
+
+.color
+{
+   color: #f1f5f8;
+}
